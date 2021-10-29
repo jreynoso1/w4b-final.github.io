@@ -1,0 +1,313 @@
+
+body {
+    /* background-image: url("https://images.pexels.com/photos/6373861/pexels-photo-6373861.jpeg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+#myVideo {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+@media (min-aspect: 16/9) {
+    #myVideo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #myVideo {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.h1-welcome {
+    font-size: 42px;
+    font-family: 'DotGothic16', sans-serif;
+    color: #e3ecde;
+    letter-spacing: 5px;
+    /*
+    background-color: #D9E4DD;
+    */
+    margin: 0px;
+    padding: 230px 0px;
+}
+
+.h1-favorite {
+    font-size: 45px;
+    color: #e3ecde;
+    font-family: 'Electrolize', sans-serif;
+
+}
+
+.h1-study {
+    font-size: 45px;
+    color: #e3ecde;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.logo-code {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.div-welcome {
+    text-align: center;
+}
+
+#top-nav {
+    text-align: center;
+    background-color: #555555;
+    width: 100%;
+}
+
+li {
+	display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    margin: 25px auto;
+}
+
+a {
+    text-decoration: none;
+	display: inline-block;
+    padding: 0px 9px;
+    color: #e3ecde;
+}
+
+a:hover {
+    color: #A98669;
+}
+
+#top-ul {
+    margin: 0px;
+}
+
+.left {
+    float: left;
+}
+
+#h1-about {
+    font-size: 42px;
+    margin-top: 100px;
+    color: #e3ecde;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#h1-contact {
+    color: #e3ecde;
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.h1-topic {
+    color: #e3ecde;
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.title-image {
+    background-color: #ADC2A9;
+    width: 100%;
+    padding: 20px;
+}
+  
+.card1 {
+     margin-top: 129px;
+     background-color: #bea189;
+     padding: 20px;
+}
+
+.card2 {
+    margin-top: 129px;
+    background-color: #bea189;
+    padding: 20px;
+}
+
+.card3 {
+    
+    background-color: #bea189;
+    padding: 20px;
+    margin-top: 129px;
+    margin-bottom: 200px;
+}
+
+.haha {
+    display: inline-block;
+    width: 100%;
+}
+/*Working on this part along with AboutMe.html @haha */
+.card4 {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#div-video {
+    /* background-color: #A98669; */
+}
+
+
+.youtube {
+    text-align: center;
+    /* border-style: solid; */
+    /* border-color: #506349; */
+    /* border-radius: 2px; */
+    width: 100%;
+    /* background-color: #ADC2A9; */
+}
+
+  /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    padding-right: 30px;
+    float: right;
+    width: 70%;
+}
+
+.footer-bottom {
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    background-color: #555555;
+    text-align: center;
+    
+  }
+
+#pop-images {
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.aboutcolumn {
+    padding-right: 10px;
+    /*** float: right; ***/
+    width: 70%;
+}
+
+
+.form-div {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.class {
+    position: absolute;
+}
+
+.eve-logo {
+    margin-top: 100px;
+    text-align: center;
+}
+
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+
+.spin {
+    animation-name: spinning;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: linear;
+  }
+
+#contact-li li {
+    display: list-item;
+    width: auto;
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #506349;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #555555;
+  }
+  
+  .container {
+    text-align: left;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #ADC2A9;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+  }
+
+  div.gallery {
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border: 3px solid #ccc;
+    width: 150px;
+    border-color: white;
+    background-color: #506349;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
